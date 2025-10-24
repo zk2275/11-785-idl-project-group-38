@@ -1,7 +1,3 @@
-Here is a `README.md` file generated based on the notebook you provided.
-
----
-
 # Blood Pressure Estimation from ECG and PPG Signals
 
 **Author:** Zhuodiao Kuang
