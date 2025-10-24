@@ -30,11 +30,12 @@ The notebook is designed for Google Colab and requires the following main Python
 
 Download the raw dataset **directly from the official MIMIC-III website** following their access requirements and instructions.  
 
-1. Initial inspection & filtering (`basic stat and clean data`): List and verify the downloaded files/variables, and filter the records to retain the three target data types used in our study.
+1. Initial inspection & filtering (`basic stat and clean data.ipynb`): List and verify the downloaded files/variables, and filter the records to retain the three target data types used in our study.
 
-2. Pairwise correlation (`simple corr`): computes pairwise correlation coefficients among the three selected data types to quantify their relationships and provide a quick idea on signal relations.
+2. Pairwise correlation (`simple corr.ipynb`): computes pairwise correlation coefficients among the three selected data types to quantify their relationships and provide a quick idea on signal relations.
 
-3. Subject-wise split & temporal slicing (`split_dataset_split time`): partitions the data by subject into three subsets and performs slicing on each record. 
+3. Subject-wise split & temporal slicing (`split_dataset_split time.ipynb`): partitions the data by subject into three subsets and performs slicing on each record.
+
 ## How to Run
 
 1.  **Upload Data:** Upload your `train.zip`, `val.zip`, and `test.zip` files to a folder in your Google Drive (e.g., `/MyDrive/11785FinalData/`).
